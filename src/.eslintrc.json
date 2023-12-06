@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Detects the React version automatically
+    }
+  },
+  "rules": {
+    // Other custom rules here
+    "react/react-in-jsx-scope": "off" // Turns off the rule requiring React in JSX scope
+  },
+  "plugins": [
+    "react" // Adds React-specific linting rules
+  ]
+}

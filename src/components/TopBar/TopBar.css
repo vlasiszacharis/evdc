@@ -1,0 +1,8 @@
+.Main__Topbar {
+  background: var(--color-topbar);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
