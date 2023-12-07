@@ -1,8 +1,23 @@
 .Main__Topbar {
   background: var(--color-topbar);
-  width: 100vw;
-  height: 10vh;
   display: flex;
-  justify-content: space-between;
+
+  padding: 15px 135px 15px 816px;
+  justify-content: flex-end;
   align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.Main__Topbar a {
+  font-family: var(--font-family);
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 1rem;
+  cursor: pointer;
+  color: var(--color-main);
 }

@@ -1,7 +1,8 @@
 import React from "react"
 
-function Button() {
-  return <button>click</button>
+// eslint-disable-next-line react/prop-types
+function Button({ text }) {
+  return <button>{text}</button>
 }
 
 export default Button

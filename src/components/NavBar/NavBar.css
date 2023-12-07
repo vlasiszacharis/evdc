@@ -1,8 +1,62 @@
-.Main__NavBar {
+.main__navbar_links {
+  padding: 1rem 7rem;
   background: var(--color-navbar);
-  width: 100vw;
-  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.main__navbar-links_logo {
+  padding-right: 2rem;
+}
+
+.main__navbar-links_container {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main_navbar-links_download {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main__navbar-links_logo img {
+  width: 228px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.main__navbar-links_container a,
+.main_navbar-links_download a {
+  color: var(--color-h1);
+  font-family: var(--font-family);
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.main_navbar-links_download button {
+  background: var(--color-primary);
+  color: var(--color-navbar);
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 60px;
+  padding: 14px 20px;
+  width: 168px;
+  height: 55px;
+  flex-shrink: 0;
 }

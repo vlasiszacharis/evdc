@@ -9,10 +9,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --font-family: "Outfit", sans-serif;
+  --font-family: "Manrope", sans-serif;
   --color-topbar: #252525;
-  --color-navbar: #e9e9ea;
+  --color-navbar: #ffffff;
   --color-main: #fafafa;
   --color-primary: #51c37f;
   --color-h1: #252525;
+}
+
+.Main__Home {
+  color: unset;
+  text-decoration: none;
 }

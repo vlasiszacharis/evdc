@@ -7,7 +7,7 @@ function TopBar() {
     <>
       <div className='Main__Topbar'>
         <Link to='partner'>Become a partner</Link>
-        <Link to='about '>About</Link>
+        <Link to='socials'>Socials</Link>
       </div>
     </>
   )

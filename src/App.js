@@ -7,7 +7,7 @@ import Tools from "./pages/Tools/Tools"
 import Partner from "./pages/Partner/Partner"
 import About from "./pages/About/About"
 import Buy from "./pages/Buy/Buy"
-
+import Help from "./pages/Help/Help"
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
         <Route path='partner' element={<Partner />} />
         <Route path='about' element={<About />} />
         <Route path='buy' element={<Buy />} />
+        <Route path='help' element={<Help />} />
       </Routes>
     </>
   )

@@ -5,8 +5,10 @@ import TopBar from "../../components/TopBar/TopBar"
 function Home() {
   return (
     <>
-      <TopBar />
-      <NavBar />
+      <div className='Main__Home'>
+        <TopBar />
+        <NavBar />
+      </div>
     </>
   )
 }
