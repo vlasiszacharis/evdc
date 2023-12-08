@@ -24,8 +24,8 @@
 }
 
 .main__navbar-links_logo img {
-  width: 228px;
-  height: 40px;
+  width: auto;
+  height: auto;
   flex-shrink: 0;
 }
 

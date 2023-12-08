@@ -1,0 +1,17 @@
+.main__ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__rating-title {
+  color: var(--color-topbar);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 39.6px */
+  padding: 10px;
+}

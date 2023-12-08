@@ -3,17 +3,17 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "../NavBar/NavBar.css"
 import Button from "../Button/Button"
-import logo from "../../assets/Screenshot_1.jpg"
+import logo from "../../assets/logo-modified.png"
 function NavBar() {
   let Download = "Download App"
   return (
     <>
       <div className='main__navbar_links'>
-        {/* <div className='main__navbar-links_logo'>
+        <div className='main__navbar-links_logo'>
           <Link to='/'>
-            <h1>Evdc</h1>
+            <img src={logo} alt='logo' />
           </Link>
-        </div> */}
+        </div>
         <div className='main__navbar-links_container'>
           <Link to='/map'>Map</Link>
           <Link to='/tools'>Tools</Link>
