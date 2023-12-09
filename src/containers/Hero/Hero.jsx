@@ -1,7 +1,7 @@
 import React from "react"
-import "../../components/Hero/Hero.css"
+import "./Hero.css"
 import Input from "../../components/Search/Search"
-import Button from "../Button/Button"
+import Button from "../../components/Button/Button"
 import hero_logo from "../../assets/Hero desktop.png"
 
 function Hero() {

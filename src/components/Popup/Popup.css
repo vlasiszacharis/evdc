@@ -1,0 +1,45 @@
+.popup__window {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px;
+}
+
+.popup__window-left {
+  background: var(--color-main);
+  padding: 50px;
+  width: 700px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__window-right {
+  background: var(--color-main);
+  padding: 50px;
+  width: 700px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__window-left_app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__window-left_android {
+  padding: 50px;
+}
+
+.popup__window-left_ios {
+  padding: 50px;
+}

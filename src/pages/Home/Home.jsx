@@ -1,10 +1,11 @@
 import React from "react"
-import NavBar from "../../components/NavBar/NavBar"
+import NavBar from "../../containers/NavBar/NavBar"
 import "../Home/Home.css"
-import TopBar from "../../components/TopBar/TopBar"
-import Hero from "../../components/Hero/Hero"
-import Reviews from "../../components/Reviews/Reviews"
-import Featured from "../../components/Featured/Featured"
+import TopBar from "../../containers/TopBar/TopBar"
+import Hero from "../../containers/Hero/Hero"
+import Reviews from "../../containers/Reviews/Reviews"
+import Featured from "../../containers/Featured/Featured"
+import Popup from "../../components/Popup/Popup"
 function Home() {
   return (
     <>
@@ -12,8 +13,9 @@ function Home() {
         <TopBar />
         <NavBar />
         <Hero />
-        <Featured />
         <Reviews />
+        <Featured />
+        <Popup />
       </div>
     </>
   )

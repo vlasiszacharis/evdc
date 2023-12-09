@@ -1,5 +1,5 @@
 import React from "react"
-import "../../components/Featured/Featured.css"
+import "./Featured.css"
 import logo1 from "../../assets/Partner Logo 01.png"
 import logo2 from "../../assets/Partner Logo 02.png"
 import logo3 from "../../assets/Partner Logo 03.png"

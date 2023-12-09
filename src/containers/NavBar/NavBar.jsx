@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react"
 import { Link } from "react-router-dom"
-import "../NavBar/NavBar.css"
-import Button from "../Button/Button"
+import "./NavBar.css"
+import Button from "../../components/Button/Button"
 import logo from "../../assets/logo-modified.png"
 function NavBar() {
   let Download = "Download App"

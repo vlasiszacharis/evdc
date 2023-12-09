@@ -1,0 +1,23 @@
+.main__reviews {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  text-align: center;
+}
+.main__reviews-download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.main__reviews-android {
+  padding-right: 5px;
+  padding-top: 25px;
+}
+
+.main__reviews-ios {
+  padding-left: 5px;
+  padding-top: 25px;
+}
