@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
   padding: 1rem 2.5rem;
+  top: 100px;
+  position: relative;
+  margin-bottom: 70px;
 }
 
 .hero__section_left {
@@ -115,6 +118,8 @@
 }
 
 .hero__section_right img {
-  width: auto;
-  height: auto;
+  height: 490px;
+  width: 100%;
+  min-width: 400px;
+  object-fit: contain;
 }

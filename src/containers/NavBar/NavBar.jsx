@@ -2,10 +2,16 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./NavBar.css"
-import Button from "../../components/Button/Button"
+
 import logo from "../../assets/logo-modified.png"
+import { useState } from "react"
+import Popup from "../../components/Popup/Popup"
 function NavBar() {
-  let Download = "Download App"
+  const [toggle, setToggle] = useState(false)
+
+  const handleClick = () => {
+    setToggle(!toggle)
+  }
   return (
     <>
       <div className='main__navbar_links'>
@@ -22,7 +28,8 @@ function NavBar() {
           <Link to='help'>Help</Link>
         </div>
         <div className='main_navbar-links_download'>
-          <Button text={Download} />
+          <button onClick={handleClick}>Download App</button>
+          {toggle === true ? <Popup /> : null}
         </div>
       </div>
     </>

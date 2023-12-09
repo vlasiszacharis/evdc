@@ -5,17 +5,19 @@ import TopBar from "../../containers/TopBar/TopBar"
 import Hero from "../../containers/Hero/Hero"
 import Reviews from "../../containers/Reviews/Reviews"
 import Featured from "../../containers/Featured/Featured"
-import Popup from "../../components/Popup/Popup"
+
 function Home() {
   return (
     <>
       <div className='Main__Home'>
-        <TopBar />
-        <NavBar />
+        <div className='Main__Home-navbar'>
+          <TopBar />
+          <NavBar />
+        </div>
+
         <Hero />
         <Reviews />
         <Featured />
-        <Popup />
       </div>
     </>
   )

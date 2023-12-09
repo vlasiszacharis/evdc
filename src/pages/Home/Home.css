@@ -15,9 +15,18 @@
   --color-main: #fafafa;
   --color-primary: #51c37f;
   --color-h1: #252525;
+  --color-popup: #f5f5f5;
 }
 
 .Main__Home {
   color: unset;
   text-decoration: none;
+}
+
+.Main__Home-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
