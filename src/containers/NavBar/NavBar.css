@@ -60,3 +60,9 @@
   height: 55px;
   flex-shrink: 0;
 }
+
+@media (max-width: 1024px) {
+  .main__navbar-links_container {
+    display: none;
+  }
+}

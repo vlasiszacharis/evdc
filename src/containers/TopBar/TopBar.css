@@ -21,3 +21,12 @@
   cursor: pointer;
   color: var(--color-main);
 }
+
+.main__topbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  max-height: 50.8px;
+}

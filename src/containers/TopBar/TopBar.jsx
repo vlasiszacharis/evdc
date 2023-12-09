@@ -6,8 +6,10 @@ function TopBar() {
   return (
     <>
       <div className='Main__Topbar'>
-        <Link to='partner'>Become a partner</Link>
-        <Link to='socials'>Socials</Link>
+        <div className='main__topbar-links'>
+          <Link to='partner'>Partner</Link>
+          <Link to='socials'>Socials</Link>
+        </div>
       </div>
     </>
   )
