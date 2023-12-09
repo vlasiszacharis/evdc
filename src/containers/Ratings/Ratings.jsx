@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react"
-import "../../components/Ratings/Ratings.css"
+import "../../containers/Ratings/Ratings.css"
 
 function Ratings({ logo, title, text }) {
   return (

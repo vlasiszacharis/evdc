@@ -1,6 +1,6 @@
 import React from "react"
 import "./Reviews.css"
-import Ratings from "../../components/Ratings/Ratings"
+import Ratings from "../../containers/Ratings/Ratings"
 // import { FaChargingStation } from "react-icons/fa"
 
 // import { FaStar } from "react-icons/fa"
