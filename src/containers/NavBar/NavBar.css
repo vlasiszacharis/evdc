@@ -1,9 +1,11 @@
 .main__navbar_links {
-  padding: 1rem 7rem;
+  padding: 1rem 3.5rem;
+  padding-left: 7rem;
   background: var(--color-navbar);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 
 .main__navbar-links_logo {
@@ -61,8 +63,21 @@
   flex-shrink: 0;
 }
 
+.main__navbar-links_menu {
+  margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+
 @media (max-width: 1024px) {
-  .main__navbar-links_container {
+  .main__navbar-links_container,
+  .main_navbar-links_download {
     display: none;
+  }
+
+  .main__navbar-links_menu {
+    display: flex;
+    padding-left: 50px;
   }
 }
