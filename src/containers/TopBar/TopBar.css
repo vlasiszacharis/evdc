@@ -1,4 +1,4 @@
-.Main__Topbar {
+.main__topbar {
   background: var(--color-topbar);
   display: flex;
 
@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.Main__Topbar a {
+.main__topbar a {
   font-family: var(--font-family);
   text-transform: capitalize;
   text-align: right;
@@ -29,4 +29,10 @@
   align-items: center;
   width: 300px;
   max-height: 50.8px;
+}
+
+@media (max-width: 1024px) {
+  .main__topbar {
+    display: none;
+  }
 }
