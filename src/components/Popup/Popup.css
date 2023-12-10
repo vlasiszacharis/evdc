@@ -1,18 +1,18 @@
 .popup__window {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed; /* or absolute */
   top: 115px;
-  left: 170px;
-  width: 1200px;
+
+  width: 90%;
   height: 550px;
   border-radius: 50px;
   z-index: 100;
 }
 
-.popup__window-left {
+.popup__window-up {
   background: var(--color-popup);
   padding: 50px;
   width: 100%;
@@ -22,11 +22,11 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
 
-.popup__window-right {
+.popup__window-down {
   background: var(--color-popup);
   padding: 50px;
   width: 100%;
@@ -37,20 +37,20 @@
   align-items: center;
   overflow: hidden;
   border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.popup__window-left_app {
+.popup__window-up_app {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.popup__window-left_android {
+.popup__window-up_android {
   padding: 50px;
 }
 
-.popup__window-left_ios {
+.popup__window-up_ios {
   padding: 50px;
 }

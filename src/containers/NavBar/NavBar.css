@@ -71,17 +71,16 @@
 }
 
 @media (max-width: 1024px) {
-  .main__navbar-links_container,
-  .main_navbar-links_download {
-    display: none;
-  }
-
   .main__navbar-links_menu {
     display: flex;
     padding-left: 50px;
   }
   .main__navbar_links {
     padding-left: 4rem;
+  }
+  .main__navbar-links_container,
+  .main_navbar-links_download {
+    display: none;
   }
 }
 
