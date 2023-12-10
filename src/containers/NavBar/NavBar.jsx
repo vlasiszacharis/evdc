@@ -43,7 +43,7 @@ function NavBar() {
           {toggle === true ? <Popup /> : null}
         </div>
         <div className='main__navbar-links_menu'>
-          {toggleMenu === true ? <IoMenu onClick={handleClickMenu} /> : <IoClose onClick={handleClickMenu} />}
+          {toggleMenu === true ? <IoMenu size={34} onClick={handleClickMenu} /> : <IoClose size={34} onClick={handleClickMenu} />}
         </div>
       </div>
     </>

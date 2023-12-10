@@ -4,7 +4,7 @@ import "../Home/Home.css"
 import TopBar from "../../containers/TopBar/TopBar"
 import Hero from "../../containers/Hero/Hero"
 import Reviews from "../../containers/Reviews/Reviews"
-import Featured from "../../containers/Featured/Featured"
+// import Featured from "../../containers/Featured/Featured"
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
 
         <Hero />
         <Reviews />
-        <Featured />
+        {/* <Featured /> */}
       </div>
     </>
   )
