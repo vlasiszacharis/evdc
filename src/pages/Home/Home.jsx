@@ -5,7 +5,7 @@ import TopBar from "../../containers/TopBar/TopBar"
 import Hero from "../../containers/Hero/Hero"
 import Reviews from "../../containers/Reviews/Reviews"
 // import Featured from "../../containers/Featured/Featured"
-
+import MapPopup from "../../components/MapPopup/MapPopup"
 function Home() {
   return (
     <>
@@ -14,7 +14,7 @@ function Home() {
           <TopBar />
           <NavBar />
         </div>
-
+        <MapPopup />
         <Hero />
         <Reviews />
         {/* <Featured /> */}

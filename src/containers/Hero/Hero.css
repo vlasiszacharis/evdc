@@ -123,12 +123,15 @@
   object-fit: contain;
 }
 /* desktop */
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .hero__section_h1 {
     font-size: 50px;
   }
   .hero__section_h2 {
     padding-top: 30px;
+  }
+  .hero__section {
+    top: 80px;
   }
 }
 
