@@ -72,7 +72,7 @@
 .hero__section_email_button {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding-top: 2rem;
   width: 100%;
   justify-content: center;
 }

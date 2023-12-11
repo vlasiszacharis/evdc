@@ -10,6 +10,9 @@
   height: 550px;
   border-radius: 50px;
   z-index: 100;
+  box-shadow:
+    0px 8px 14px 9px rgba(0, 0, 0, 0.2),
+    inset -2px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .popup__window-up {
@@ -48,9 +51,25 @@
 }
 
 .popup__window-up_android {
-  padding: 50px;
+  padding: 1rem 1rem;
 }
 
 .popup__window-up_ios {
-  padding: 50px;
+  padding: 1rem 1rem;
+}
+
+.popup__window-up_title h2 {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: var(--color-h1);
+}
+
+.popup__window-up_text {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  font-family: var(--font-family);
+  color: var(--color-h1);
 }
