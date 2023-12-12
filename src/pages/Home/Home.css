@@ -14,8 +14,18 @@
   --color-navbar: #ffffff;
   --color-main: #fafafa;
   --color-primary: #51c37f;
-  --color-h1: #252525;
+  --color-h1: #0e1c2d;
+  --color-h4: #0e1c2d;
+  --color-p: #5c6677;
   --color-popup: #f5f5f5;
+  --font-size_h1: 50px;
+  --font-size_h2: 42px;
+  --font-size_h3: 35px;
+  --font-size_h4: 26px;
+  --font-size_p: 20px;
+  --font-size_links: 20px;
+  --font-weight_h1: 700;
+  --font-weight_links: 500;
 }
 
 .Main__Home {
