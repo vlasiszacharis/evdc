@@ -10,7 +10,7 @@
 
 :root {
   --font-family: "Manrope", sans-serif;
-  --color-topbar: #252525;
+  --color-topbar: #001304;
   --color-navbar: #ffffff;
   --color-main: #fafafa;
   --color-primary: #51c37f;
@@ -25,15 +25,17 @@
   --font-size_p: 20px;
   --font-size_links: 20px;
   --font-weight_h1: 700;
+  --font-weight_h4: 600;
+  --font-weight_p: 500;
   --font-weight_links: 500;
 }
 
-.Main__Home {
+.main__home {
   color: unset;
   text-decoration: none;
 }
 
-.Main__Home-navbar {
+.main__home-navbar {
   position: fixed;
   top: 0;
   left: 0;

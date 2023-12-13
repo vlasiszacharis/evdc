@@ -10,8 +10,8 @@ import Reviews from "../../containers/Reviews/Reviews"
 function Home() {
   return (
     <>
-      <div className='Main__Home'>
-        <div className='Main__Home-navbar'>
+      <div className='main__home'>
+        <div className='main__home-navbar'>
           <TopBar />
           <NavBar />
         </div>

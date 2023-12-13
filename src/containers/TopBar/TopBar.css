@@ -2,7 +2,7 @@
   background: var(--color-topbar);
   display: flex;
 
-  padding: 15px 135px 15px 816px;
+  padding: 1rem;
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
@@ -25,12 +25,32 @@
 .main__topbar-links {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-height: 50.8px;
+  padding-right: 7rem;
+}
+.main__topbar-logo {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   max-height: 50.8px;
 }
 
+.main__topbar-logo img {
+  width: 70%;
+  height: 90%;
+}
+
+.main__topbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  width: 90%;
+}
 @media (max-width: 1024px) {
   .main__topbar {
     display: none;

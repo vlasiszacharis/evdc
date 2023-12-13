@@ -17,19 +17,26 @@ function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(true)
   //  useState --> popup menu --map
   const [togglePopupMenu, setTogglePopupMenu] = useState(false)
+  // download menu
   const handleClick = () => {
     setToggle(!toggle)
   }
-
+  const handleClickClose = () => {
+    setToggle(!toggle)
+  }
+  // responsive menu
   const handleClickMenu = () => {
     setToggleMenu(!toggleMenu)
   }
+
+  // Map popup
   const handleMouseOver = () => {
     setTogglePopupMenu(true)
   }
   const handleMouseLeave = () => {
     setTogglePopupMenu(false)
   }
+
   return (
     <>
       <div className='main__navbar_links'>
@@ -60,7 +67,7 @@ function NavBar() {
         <div className='main_navbar-links_download'>
           {/* click download app -->popum menu */}
           <button onClick={handleClick}>Download App</button>
-          {toggle === true ? <Popup /> : null}
+          {toggle === true ? <Popup toggle={"true"} onClick={handleClickClose} /> : null}
         </div>
         <div className='main__navbar-links_menu'>
           {toggleMenu === true ? <IoMenu size={34} onClick={handleClickMenu} /> : <IoClose size={34} onClick={handleClickMenu} />}

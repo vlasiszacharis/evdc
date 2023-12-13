@@ -31,7 +31,7 @@
 
 .popup__window-down {
   background: var(--color-popup);
-  padding: 50px;
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -41,6 +41,8 @@
   overflow: hidden;
   border-bottom-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .popup__window-up_app {
@@ -72,4 +74,33 @@
   font-weight: 500;
   font-family: var(--font-family);
   color: var(--color-h1);
+}
+
+.popup__window-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.popup__window-title {
+  font-size: var(--font-size_h4);
+  font-weight: var(--font-weight_h4);
+  font-family: var(--font-family);
+  color: var(--color-h4);
+}
+.popup__window-text {
+  font-size: var(--font-size_p);
+  font-weight: var(--font-weight_p);
+  font-family: var(--font-family);
+  color: var(--color-p);
+}
+
+.popup__window-close {
+  position: absolute;
+  right: 3rem;
+  top: 1.5rem;
+  border: hidden;
+  cursor: pointer;
 }

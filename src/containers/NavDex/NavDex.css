@@ -1,0 +1,39 @@
+.dex__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-topbar);
+  color: var(--color-navbar);
+  width: 100%;
+
+  padding: 2rem;
+}
+
+.dex__navbar-container {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 6rem;
+  width: 100%;
+}
+
+.dex__navbar-logo img {
+  width: 90%;
+  height: 100%;
+}
+.dex__navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.dex__navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
