@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-topbar);
+  background-color: linear-gradient(176deg, rgba(3, 1, 20, 1) 0%, rgba(81, 195, 127, 1) 100%);
   color: var(--color-navbar);
   width: 100%;
 
@@ -14,7 +14,7 @@
   width: 85%;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 3rem;
+  padding-left: 0rem;
   padding-right: 6rem;
   width: 100%;
 }
@@ -36,4 +36,10 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+}
+
+@media (max-width: 550px) {
+  .dex__navbar-container {
+    padding-right: 0rem;
+  }
 }

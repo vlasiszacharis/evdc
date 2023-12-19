@@ -1,5 +1,6 @@
 import React from "react"
 import "../../components/PopupItem/PopupItem.css"
+import { Link } from "react-router-dom"
 // eslint-disable-next-line react/prop-types
 function PopupItem({ popup_img, title, text, link_name }) {
   return (
@@ -9,7 +10,7 @@ function PopupItem({ popup_img, title, text, link_name }) {
         <div className='popup__item-content'>
           <h4>{title}</h4>
           <p>{text}</p>
-          <a>{link_name}</a>
+          <Link to='/'>{link_name}</Link>
         </div>
       </div>
     </>
