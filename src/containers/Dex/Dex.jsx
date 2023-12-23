@@ -28,11 +28,14 @@ function Dex() {
     setSlippage(true);
   };
 
+  const handleslippage = () => {
+    setSlippage(false);
+  };
   return (
     <>
       <div className='dex__main'>
         <NavDex />
-        {slippage && <Slippage />}
+        {slippage && <Slippage handleslippage={handleslippage} />}
         {!slippage && (
           <div className='dex__main-swap_rectangle'>
             <div className='dex__main-swap_options'>
@@ -54,6 +57,7 @@ function Dex() {
               <div className='dex__main-swap_buy'>
                 <input placeholder='0' />
               </div>
+              {/* switch token - arrows */}
               <div className={arrowSettings}>
                 <button onMouseOver={handleMouseArrow} onMouseLeave={handleMouseOutArrow}>
                   <HiMiniArrowsUpDown size={26} />
@@ -61,8 +65,9 @@ function Dex() {
               </div>
               <div className='dex__main-swap_sell-token'>
                 <select>
-                  <option>Bitcoin</option>
-                  <option>Ethereum</option>
+                  {coins.map((event) => (
+                    <option>{event.coin}</option>
+                  ))}
                 </select>
               </div>
               <div className='dex__main-swap_sell'>

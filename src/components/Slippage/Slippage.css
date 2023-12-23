@@ -7,8 +7,8 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  width: 24rem;
-  height: 25rem;
+  width: 33rem;
+  height: 30rem;
   z-index: 1000;
   border-radius: 20px;
 }
@@ -18,14 +18,38 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 15rem;
-  height: 2rem;
+  width: 20rem;
+  height: 3rem;
 }
 
-.dex__main-swap_settings-slippage_back button {
+.dex__main-swap_settings-slippage_arrow button {
   background: #1c1a28;
   color: white;
   border: none;
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.4;
+}
+
+.dex__main-swap_settings-slippage_x button {
+  background: #1c1a28;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.dex__main-swap_settings-slippage_arrow-active button {
+  background: #1c1a28;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.dex__main-swap_settings-slippage_x-active button {
+  background: #1c1a28;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
 }

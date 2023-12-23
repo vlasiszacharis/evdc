@@ -10,6 +10,10 @@
   color: white;
   font-family: var(--font-family);
 }
+.dex__main button,
+select {
+  cursor: pointer;
+}
 .dex__main-swap_settings-active button {
   background: #28263a !important;
   border: none;
