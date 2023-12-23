@@ -38,6 +38,18 @@
   gap: 3rem;
 }
 
+.dex__navbar-links_connect button {
+  border-radius: 20px;
+  background: #1c1a28;
+  color: black;
+  background: var(--color-primary);
+  width: 12rem;
+  height: 3rem;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+}
+
 @media (max-width: 550px) {
   .dex__navbar-container {
     padding-right: 0rem;

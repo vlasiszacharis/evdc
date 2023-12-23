@@ -13,9 +13,8 @@ function NavDex() {
             </Link>
           </div>
           <div className='dex__navbar-links'>
-            <div>bnb</div>
-            <div>
-              <button>connect</button>
+            <div className='dex__navbar-links_connect'>
+              <button>Connect to a wallet </button>
             </div>
           </div>
         </div>

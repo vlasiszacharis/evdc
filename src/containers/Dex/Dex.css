@@ -8,8 +8,22 @@
   height: 99%;
   background: black;
   color: white;
+  font-family: var(--font-family);
 }
-
+.dex__main-swap_settings-active button {
+  background: #28263a !important;
+  border: none;
+  cursor: pointer;
+  color: white;
+  opacity: 0.9;
+}
+.dex__main-swap_settings button {
+  background: #28263a !important;
+  border: none;
+  cursor: pointer;
+  color: white;
+  opacity: 0.4;
+}
 .dex__main-swap_rectangle {
   width: 35%;
   height: 70%;
@@ -35,22 +49,26 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 0.1rem;
-  width: 90%;
-  height: 80%;
+  gap: 0.3rem;
+  width: 95%;
+  height: 85%;
 }
 
 .dex__main-swap_rectangle input {
   background: white;
   width: 100%;
-  height: 70%;
+  height: 75%;
   border-radius: 20px;
 }
 
 .dex__main-swap_rectangle button {
   width: 85%;
-  height: 10%;
+  height: 15%;
   border-radius: 20px;
+  background: var(--color-primary);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
 }
 .dex__main-swap_buy {
   display: flex;
@@ -78,6 +96,21 @@
   color: white;
   width: 7rem;
   height: 2rem;
+}
+
+.dex__main-swap_change button {
+  background: #28263a !important;
+  border: none;
+  cursor: pointer;
+  color: white;
+  opacity: 0.4;
+}
+.dex__main-swap_change-active button {
+  background: #28263a !important;
+  border: none;
+  cursor: pointer;
+  color: white;
+  opacity: 0.9;
 }
 
 @media (max-width: 1400px) {
