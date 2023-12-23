@@ -7,10 +7,12 @@ import coins from "../../coins.json";
 import { IoSettingsSharp } from "react-icons/io5";
 import { useState } from "react";
 import Slippage from "../../components/Slippage/Slippage";
+import Wallet from "../../components/Wallet/Wallet";
 function Dex() {
   const [settings, setSettings] = useState("dex__main-swap_settings");
   const [arrowSettings, setArrowSettings] = useState("dex__main-swap_change");
   const [slippage, setSlippage] = useState(false);
+  const [wallet, setWallet] = useState(false);
   const handleMouse = () => {
     setSettings("dex__main-swap_settings-active");
   };
@@ -31,10 +33,18 @@ function Dex() {
   const handleslippage = () => {
     setSlippage(false);
   };
+  const handleWallet = () => {
+    setWallet(!wallet);
+  };
+
+  const handleClose = () => {
+    setWallet(false);
+  };
   return (
     <>
       <div className='dex__main'>
-        <NavDex />
+        <NavDex handleWallet={handleWallet} />
+        {wallet && <Wallet handleClose={handleClose} />}
         {slippage && <Slippage handleslippage={handleslippage} />}
         {!slippage && (
           <div className='dex__main-swap_rectangle'>
@@ -75,7 +85,7 @@ function Dex() {
               </div>
               <div className='dex__main-swap-button'></div>
 
-              <button>Connect Wallet</button>
+              <button onClick={handleWallet}>Connect Wallet</button>
             </div>
           </div>
         )}

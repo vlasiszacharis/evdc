@@ -1,6 +1,6 @@
 .dex__main-swap_settings-slippage {
   border-radius: 10px;
-  background: #1c1a28;
+  background: #28263a;
   color: white;
   display: flex;
   justify-content: center;
@@ -23,33 +23,33 @@
 }
 
 .dex__main-swap_settings-slippage_arrow button {
-  background: #1c1a28;
+  background: #28263a;
   color: white;
   border: none;
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .dex__main-swap_settings-slippage_x button {
-  background: #1c1a28;
+  background: #28263a;
   color: white;
   border: none;
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .dex__main-swap_settings-slippage_arrow-active button {
-  background: #1c1a28;
+  background: #28263a;
   color: white;
   border: none;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .dex__main-swap_settings-slippage_x-active button {
-  background: #1c1a28;
+  background: #28263a;
   color: white;
   border: none;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 1;
 }
