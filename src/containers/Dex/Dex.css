@@ -89,7 +89,7 @@ select {
 .dex__main-swap_sell-token,
 .dex__main-swap_buy-token {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: baseline;
   width: 80%;
 }
