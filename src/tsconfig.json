@@ -10,6 +10,7 @@
     "sourceMap": true // Enable source map generation
   },
   "include": [
-    "src/**/*" // Include all files in the src directory
+    "src/**/*", // Include all files in the src directory
+    "tsconfig.json"
   ]
 }
