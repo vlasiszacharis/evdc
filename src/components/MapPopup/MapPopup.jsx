@@ -1,8 +1,8 @@
-import React from "react"
-import "../../components/MapPopup/MapPopup.css"
-import PopupItem from "../PopupItem/PopupItem"
-import { FaMobileScreen } from "react-icons/fa6"
-import { FaDesktop } from "react-icons/fa"
+import React from "react";
+import "../../components/MapPopup/MapPopup.css";
+import PopupItem from "../PopupItem/PopupItem";
+import { FaMobileScreen } from "react-icons/fa6";
+import { FaDesktop } from "react-icons/fa";
 
 function MapPopup() {
   return (
@@ -26,7 +26,7 @@ function MapPopup() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MapPopup
+export default MapPopup;
